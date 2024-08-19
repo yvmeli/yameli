@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yameli</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/img.jpeg" alt="Mi Foto" class="profile-pic">
+            <h1>Yameli Martínez</h1>
+            <h2>Software Developer</h2>
+            <div class="buttons">
+                <a download href="pdf/Yameli.pdf" class="btn primary-btn"><i class="fas fa-download"></i> Download CV</a>
+                <a href="mailto:yameli1715@gmail.com" class="btn secondary-btn"><i class="fas fa-envelope"></i> Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/yameli" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/yvmeli" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/yameli_tvr" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+
+        <!-- Secciones deslizantes -->
+        <div class="tabs-container">
+            <div class="tabs">
+                <button class="tablink active" onclick="openTab(event, 'Projects')">Projects</button>
+                <button class="tablink" onclick="openTab(event, 'Skills')">Skills</button>
+            </div>
+
+            <div id="Projects" class="tabcontent">
+                <div class="projects">
+                    <div class="project">
+                        <a href="https://yvmeli.github.io/Todo-App/" class="project-link">
+                            <img src="img/image.png" alt="Todo-App">
+                            <h3 class="project-title">Todo-App</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Skills" class="tabcontent">
+                <div class="skills-section">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">HTML</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">CSS</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">JavaScript</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">Bootstrap</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">TypeScript</span> <span class="skill-level">Intermediate</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">VueJS</span> <span class="skill-level">Intermediate</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">AngularJS</span> <span class="skill-level">Intermediate</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">React</span> <span class="skill-level">Intermediate</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">Svelte</span> <span class="skill-level">Basic</span></div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">Python</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">Node.js</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">PHP</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">MySQL</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">SQL Server</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">PostgreSQL</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">Flask</span> <span class="skill-level">Advance</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">C++</span> <span class="skill-level">Advanced</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">Git</span> <span class="skill-level">Intermediate</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">Tensorflow</span> <span class="skill-level">Intermediate</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">C#</span> <span class="skill-level">Basic</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">Keras</span> <span class="skill-level">Basic</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">NLP (Natural Language Processing)</span> <span class="skill-level">Basic</span></div>
+                        <div class="skill"><i class="fas fa-check-circle"></i> <span class="skill-name">Machine Learning (Aprendizaje automático)</span> <span class="skill-level">Basic</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
